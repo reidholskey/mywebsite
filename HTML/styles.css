@@ -72,6 +72,16 @@ img {
   align-items: center;
   grid-gap: 10px;
 }
+.HomeGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 2fr;
+
+}
+.recordgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .borderimg {
 border: 4px solid #271700;
 }
